@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="CSS/dashboard.css" />
+  <link rel="stylesheet" href="\css\all.css">
+
+  <style>
+    *{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+  
+</head>
+
+<body id="body">
+  
+  <section>
+    
+    <!--Nav Bar Start############-->
+    <div class="fixedNavBar">
+      
+      <div class="menuIcon" id="menuIcon">
+        <i class="fas fa-bars"></i>
+      </div>
+      
+      <div class="activeContentName">
+        <p>Dashboard</p>
+      </div>
+      
+      <div class="spamComment">
+        <span>0</span>
+      </div>
+      
+      <div class="profile">
+        <img src="images/profile pic.jpg" alt="profile pic" />
+      </div>
+      
+    </div><!--fixedNavBar-->
+    <!--Nav Bar End##############-->
+
+    <!-- Side Nav Start,css in style.css, js in main.js -->
+    <div class="sideNav" id="sideNav">
+      <div class="sideNav_icon">
+        <i class="fas fa-clock"></i>
+        <span>Studio</span>
+      </div>
+      <div class="sideNav_contents">
+        <div>
+          <i class="fa fa-th-large"></i>
+          <span>Dashboard</span>
+        </div>
+        <div>
+          <i class="fa fa-file-video"></i>
+          <span>Videos</span>
+        </div>
+        <div>
+          <i class="fa fa-list"></i>
+          <span>Playlists</span>
+        </div>
+        <div>
+          <i class="fa fa-comments"></i>
+          <span>Comments</span>
+        </div>
+        <div>
+          <i class="fa fa-chart-bar"></i>
+          <span>Analytics</span>
+        </div>
+      </div>
+    </div>
+    <!-- Side Nav End -->
+
+    
+    
+    <!--Main Content Container Start####-->
+    <div class="contentContainer">
+      
+      <!--Dashboard Container Start####-->
+      <div id="dashboard">
+        
+        <div class="channelName">
+          <div class="profilePic_2">
+            <img src="images/profile pic.jpg" alt="" />
+          </div>
+          <div class="nameAndSub">
+            <p>Coding Omega</p>
+            <p>2.42k Subscribers</p>
+          </div>
+        </div>
+        
+        <div class="analytics_d">
+          <p>Analytics</p>
+          <p>Last 28 days</p>
+          <div>
+            <p>Watch time (minutes)</p>
+            <p>2.37k</p>
+          </div>
+          <div>
+            <p>Views</p>
+            <p>1.2k</p>
+          </div>
+          <div>
+            <p>Subscriber change</p>
+            <p>+219</p>
+          </div>
+          <h3>View More</h3>
+        </div>
+        
+        <div class="latestVideoPerfomance_d">
+          
+          <p>Latest video perfomance</p>
+          <div class="lvpVideo">
+            <div><!--for img, dashboard.CSS--></div>
+            <p>CSS Animation Tutorial</p>
+          </div>
+          <div class="lvp_a">
+            <p>First 4 days, 7 hour:</p>
+          </div>
+          <div class="lvp_a">
+            <p>Ranking by views</p>
+            <p>3 of 10 ></p>
+          </div>
+          <div class="lvp_aa">
+            <div>
+              <p>Views</p>
+              <p>89</p>
+            </div>
+            <div>
+              <p>Typical:</p>
+              <p>39-87</p>
+            </div>
+          </div>
+          <div class="lvp_aa">
+            <div>
+              <p>Average view duration</p>
+              <p>1:55</p>
+            </div>
+            <div>
+              <p>Typical:</p>
+              <p>2:05-2:34</p>
+            </div>
+          </div>
+          <div class="lvp_aa">
+            <div>
+              <p>Watch time (minutes)</p>
+              <p>172</p>
+            </div>
+            <div>
+              <p>Typical:</p>
+              <p>180-212</p>
+            </div>
+          </div>
+          <h3>view more</h3>
+          
+        </div>
+        <!-- latestVideoPerfomance_d -->
+        
+        <div class="videos_d">
+          <p>Videos</p>
+          <div id="videos_d_cont">
+            <!--made using js-->
+          </div>
+          <h3>view more</h3>
+        </div>
+        <!--videos_d-->
+        
+        <div class="comments_d">
+          <p>Comments</p>
+          <p>3 most recent</p>
+          <div class="comments_d_com_cont">
+            <div class="comments_d_nm-thmbnl">
+              <p>How to make a diya using HTML and CSS</p>
+              <div><!--thmbnl, dashboard.css--></div>
+            </div>
+            <div class="comments_d_com">
+              <div><span class="cdc_pic1"><!--usrPic, dashboard.css--></span></div>
+              <div>
+                <p>Kashyap Kumar • 17 hours ago</p>
+                <p>Great tutorial man!</p>
+              </div>
+            </div>
+          </div>
+          <div class="comments_d_com_cont">
+            <div class="comments_d_nm-thmbnl">
+              <p>How to make a diya using HTML and CSS</p>
+              <div><!--thmbnl, css--></div>
+            </div>
+            <div class="comments_d_com">
+              <div><span class="cdc_pic2"><!--usrPic, css--></span></div>
+              <div>
+                <p>Gaming Creature • 2 days ago</p>
+                <p>Wow! I just subscribed your channel😃</p>
+              </div>
+            </div>
+            <div class="comments_d_com">
+              <div><span class="cdc_pic3"><!--usrPic, css--></span></div>
+              <div>
+                <p>Binod • 3 days ago</p>
+                <p>I really liked it 🙏</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--videos_c-->
+        
+      </div>
+      <!--Dashboard Container End####-->
+      
+      
+    </div><!--contentContainer-->
+    <!--Main Content Container End####-->
+  </section>
+  
+  
+  
+  
+  
+  
+  <script src="main.js"></script>
+  <script src="Javascript/dashboard.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
